@@ -1,0 +1,13 @@
+body{
+  background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/89/94/D12Wod.jpg");
+  background-attachment: fixed;
+}
+#homeContainer{
+  height: 100vh;
+}
+/* #animeImg{
+  width: 300px;
+} */
+.projectImages{
+  border: solid white;
+}
