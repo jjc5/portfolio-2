@@ -1,13 +1,81 @@
 body{
-  background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/89/94/D12Wod.jpg");
+  /* background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/89/94/D12Wod.jpg"); */
+  /* background: rgb(106,54,49); */ /*red*/
+  background: rgb(15,101,103); /*green*/
   background-attachment: fixed;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(255,238,221);
+}
+#myNavbar{
+  background: rgb(106,54,49) !important;
+}
+.nav-link{
+  color: white !important;
+}
+.nav-item{
+  /* background: rgb(15,101,103); */
+  background: rgb(163,42,29);
+  margin-right: 3px;
+  border-radius: 3px;
 }
 #homeContainer{
   height: 100vh;
+  padding-top: 10vh;
+}
+#jason{
+  font-size: 55px;
+}
+#profileImage{
+  border: 10px solid rgb(163,42,29);
+}
+#homeH2{
+  padding-top: 10vh;
+}
+.sectionTitles{
+  font-size: 55px;
+  background: rgb(106,54,49);
+  border-radius: 5px;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
 }
 /* #animeImg{
   width: 300px;
 } */
 .projectImages{
-  border: solid white;
+  border: 10px solid rgb(163,42,29);
+}
+#myWorkContainer{
+  height: 100vh;
+}
+#aboutMeContainer{
+  height: 100vh;
+}
+#carouselExampleControls{
+  padding-top: 15vh;
+}
+.carousel-control-prev{
+  padding-top: 15vh;
+}
+.carousel-control-next{
+  padding-top: 15vh;
+}
+#experienceHeader{
+  text-align: center;
+  padding-top: 5vh;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#skillsHeader{
+  text-align: center;
+  padding-top: 5vh;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#skillsRow{
+  padding-top: 5vh;
+}
+.skills{
+  background: rgb(106,54,49);
+  border-radius: 10px;
 }
