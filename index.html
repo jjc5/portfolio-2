@@ -13,12 +13,13 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav id="myNavbar"class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+    <nav id="myNavbar"class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
+        <a class="navbar-brand" href="#">Jason Chartier II</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" >
+        <div id="navbarNav"class="collapse navbar-collapse" >
           <ul class="navbar-nav align-items-center">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#homeContainer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
@@ -71,10 +72,10 @@
     <!-- HOME CONTAINER -->
     <div id="homeContainer" class="container">
       <div class="row align-items-center">
-        <div class="col-sm-12 col-md-12 col-lg-4 text-center">
+        <!-- <div class="col-sm-12 col-md-12 col-lg-4 text-center">
           <h1 id="jason">Jason Chartier II</h1>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-8 text-center">
+        </div> -->
+        <div class="col-sm-12 col-md-12 col-lg-12 text-center">
           <img id="profileImage"class="rounded-circle" src="file:///C:/Users/jason/OneDrive/Pictures/Saved%20Pictures/43695482_2231906060164059_7710676527909699584_n.jpg"></img>
         </div>
       </div>
@@ -93,16 +94,38 @@
             <a href="https://jason-anime-database.herokuapp.com/" target="_blank">
               <img src="file:///C:/Users/jason/OneDrive/Pictures/Saved%20Pictures/anime-heroku.PNG" class="d-block w-100 projectImages" alt="...">
             </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Anime database using MERN stack.</h5>
+              <p>Technologies Used: React, Express, MongoDB, Node</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="100000000000000000">
+            <a href="https://jason-covid-tracker.herokuapp.com/" target="_blank">
+              <img src="file:///C:/Users/jason/OneDrive/Pictures/Saved%20Pictures/covidtracker.PNG" class="d-block w-100 projectImages" alt="...">
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3>W.I.P.</h3>
+              <h5>Covid tracking app using MERN stack</h5>
+              <p>Technologies Used: React, Express, MongoDB, Node</p>
+            </div>
           </div>
           <div class="carousel-item" data-bs-interval="100000000000000000">
             <a href="https://jason-bookmarks-app.herokuapp.com/home" target="_blank">
               <img src="file:///C:/Users/jason/OneDrive/Pictures/Saved%20Pictures/bookmarks-heroku.PNG" class="d-block w-100 projectImages" alt="...">
             </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Bookmarks application using MERN stack that lets a user add a title and link to save a website.</h5>
+              <p>Technologies Used: React, Express, MongoDB, Node</p>
+            </div>
           </div>
           <div class="carousel-item" data-bs-interval="100000000000000000">
             <a href="https://jason-mongoose-store.herokuapp.com/products" target="_blank">
               <img src="file:///C:/Users/jason/OneDrive/Pictures/Saved%20Pictures/mongoose-store-heroku.PNG" class="d-block w-100 projectImages" alt="...">
             </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Full CRUD product inventory manager app.</h5>
+              <p>Technologies Used: JavaScript, Node, MongoDB</p>
+            </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

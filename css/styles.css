@@ -9,6 +9,10 @@ body{
 #myNavbar{
   background: rgb(106,54,49) !important;
 }
+.navbar-brand{
+  color: white !important;
+  font-size: 25px;
+}
 .nav-link{
   color: white !important;
 }
@@ -16,6 +20,7 @@ body{
   /* background: rgb(15,101,103); */
   background: rgb(163,42,29);
   margin-right: 3px;
+  margin-bottom: 3px;
   border-radius: 3px;
 }
 #homeContainer{
@@ -42,11 +47,15 @@ body{
 /* #animeImg{
   width: 300px;
 } */
+#myWorkContainer{
+  height: 100vh;
+}
 .projectImages{
   border: 10px solid rgb(163,42,29);
 }
-#myWorkContainer{
-  height: 100vh;
+.carousel-caption{
+  background: rgba(15,21,22,.9);
+  border-radius: 10px;
 }
 #aboutMeContainer{
   height: 100vh;
