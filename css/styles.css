@@ -23,7 +23,7 @@ body{
   border-radius: 3px;
 }
 #homeContainer{
-  height: 100vh;
+  /* height: 100vh; */
   padding-top: 10vh;
 }
 #profileImage{
@@ -31,6 +31,7 @@ body{
 }
 #homeH2{
   padding-top: 10vh;
+  margin-bottom: 50px;
 }
 .sectionTitles{
   font-size: 55px;
@@ -44,7 +45,7 @@ body{
   width: 300px;
 } */
 #myWorkContainer{
-  height: 100vh;
+  /* height: 100vh; */
 }
 .projectImages{
   border: 10px solid rgb(214,203,186);
@@ -54,10 +55,12 @@ body{
   border-radius: 10px;
 }
 #aboutMeContainer{
-  height: 100vh;
+  /* height: 100vh; */
 }
 #carouselExampleControls{
-  padding-top: 15vh;
+  /* padding-top: 15vh; */
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .carousel-control-prev{
   padding-top: 15vh;
@@ -83,4 +86,14 @@ body{
 .skills{
   background: rgb(106,54,49);
   border-radius: 10px;
+}
+@media only screen and (max-width: 465px) {
+  #profileImage{
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 465px){
+  #gaLogo{
+    height: 250px;
+  }
 }
