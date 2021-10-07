@@ -1,7 +1,5 @@
 body{
-  /* background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/89/94/D12Wod.jpg"); */
-  /* background: rgb(106,54,49); */ /*red*/
-  background: rgb(15,101,103); /*green*/
+  background: rgb(15,101,103);
   background-attachment: fixed;
   font-family: 'Oswald', sans-serif;
   color: rgb(255,238,221);
@@ -23,7 +21,6 @@ body{
   border-radius: 3px;
 }
 #homeContainer{
-  /* height: 100vh; */
   padding-top: 10vh;
 }
 #profileImage{
@@ -41,12 +38,6 @@ body{
   display: flex;
   justify-content: center;
 }
-/* #animeImg{
-  width: 300px;
-} */
-#myWorkContainer{
-  /* height: 100vh; */
-}
 .projectImages{
   border: 10px solid rgb(214,203,186);
 }
@@ -54,11 +45,7 @@ body{
   background: rgba(15,21,22,.9);
   border-radius: 10px;
 }
-#aboutMeContainer{
-  /* height: 100vh; */
-}
 #carouselExampleControls{
-  /* padding-top: 15vh; */
   margin-top: 50px;
   margin-bottom: 50px;
 }
