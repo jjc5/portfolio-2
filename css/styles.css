@@ -7,18 +7,19 @@ body{
   color: rgb(255,238,221);
 }
 #myNavbar{
-  background: rgb(106,54,49) !important;
+  background: rgb(214,203,186) !important;
 }
 .navbar-brand{
-  color: white !important;
+  color: rgb(106,54,49) !important;
   font-size: 25px;
 }
 .nav-link{
-  color: white !important;
+  color: rgb(106,54,49) !important;
+  font-size: 20px !important;
 }
 .nav-item{
   /* background: rgb(15,101,103); */
-  background: rgb(163,42,29);
+  /* background: rgb(163,42,29); */
   margin-right: 3px;
   margin-bottom: 3px;
   border-radius: 3px;
@@ -27,11 +28,8 @@ body{
   height: 100vh;
   padding-top: 10vh;
 }
-#jason{
-  font-size: 55px;
-}
 #profileImage{
-  border: 10px solid rgb(163,42,29);
+  border: 10px solid rgb(214,203,186);
 }
 #homeH2{
   padding-top: 10vh;
@@ -51,7 +49,7 @@ body{
   height: 100vh;
 }
 .projectImages{
-  border: 10px solid rgb(163,42,29);
+  border: 10px solid rgb(214,203,186);
 }
 .carousel-caption{
   background: rgba(15,21,22,.9);
